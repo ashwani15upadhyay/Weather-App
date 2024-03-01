@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: Verdana , Geneva , Tahoma , sans-serif;
+    text-align: center;
+}
+
+main{
+    min-height: 10vh;
+    padding: 25px;
+}
+.app{
+    background-image: url('/public/assets/sunrise.webp');
+    object-fit: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+}
+.app warm{
+    background-image: url('/public/assets/fog.jpg');
+}
+
+.search-box .search-bar{
+    display: block;
+    width: 30%;
+    padding: 15px;
+    appearance: none;
+    background: none;
+    outline: none;
+    left: 0;
+    right: 0;
+    position: relative;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.5); 
+    border-radius: 0px 0px 16px 16px;
+    margin-top: -25px;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+    color: #313131;
+    font-size: 20px;
+    transition: 0.4s ease;
+    margin-top: 10px;
+    background-color: rgb(231, 222, 222);
+}
+
+ .search-box .search-bar:foxus{
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+/* .location-box .location{
+    color: #fff;
+    font-size: 32px;
+}  */
